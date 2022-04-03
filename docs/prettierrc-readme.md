@@ -17,7 +17,7 @@
 
 ## 3.Property description
 
-| Property    | Column2                                                  |
+| Property    | Description                                              |
 | ----------- | -------------------------------------------------------- |
 | useTabs     | Whether to fill in the blanks when using the tab.        |
 | printWidth  | Specify a maximum file length of 100 spaces.             |
