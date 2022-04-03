@@ -36,3 +36,9 @@
 ### 4.2 Use keyboard shortcut
 
 1. Ctrl + K + D
+
+## 5. Setting Auto prettier
+
+1. Preferences > Setting
+2. Search "formatOnSave"
+3. Enable the check box.
