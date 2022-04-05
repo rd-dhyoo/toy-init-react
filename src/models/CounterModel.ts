@@ -1,16 +1,13 @@
-export const INCREASE = 'counter/INCREASE' as const;
-export const DECREASE = 'counter/DECREASE' as const;
-
-export interface SystemStore {
-  counterReducer: CounterState;
-}
+export const COUNTER_INCREASE = 'counter/INCREASE' as const;
+export const COUNTER_DECREASE = 'counter/DECREASE' as const;
 
 export interface CounterState {
-  id: string;
   value: number;
 }
 
 export interface CounterAction {
   type: string;
-  value: number;
+  data: {
+    value: number;
+  };
 }
