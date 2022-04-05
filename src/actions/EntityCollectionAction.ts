@@ -1,9 +1,4 @@
-import {
-  Entity,
-  EntityCollectionAction,
-  EntityState,
-  ENTITY_COLLECTION_ADD,
-} from '../models/EntityModels';
+import { Entity, EntityCollectionAction, ENTITY_COLLECTION_ADD } from '../models/EntityModels';
 
 export const AddEntityCollectionAction = (collections: Entity[]): EntityCollectionAction => ({
   type: ENTITY_COLLECTION_ADD,
